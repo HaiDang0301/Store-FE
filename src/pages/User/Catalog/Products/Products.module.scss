@@ -1,0 +1,237 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-heading {
+    width: 90%;
+    height: 100%;
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid #a5c926;
+}
+
+.link {
+    display: flex;
+    border-bottom: 2px solid rgb(99, 98, 98);
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 100%;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    &:hover {
+        color: aliceblue;
+        transition: all 1s ease 0s;
+        border-color: rgb(64, 165, 77);
+    }
+}
+
+.title {
+    margin-right: auto;
+    font-size: 100%;
+    color: aliceblue;
+}
+
+.product {
+    margin: 30px 0px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 12%;
+        border-radius: 20px;
+    }
+
+
+}
+
+.box {
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    border-radius: 10px;
+    background-color: #0e0e0e;
+    display: block;
+    text-align: center;
+    &:hover{
+        filter: drop-shadow(0 0 1em #646cffaa);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 2s ease 0s;
+
+        .add-to-card {
+            transform: translateY(-10%);
+            transition: all 1s ease 0s;
+        }
+    }
+}
+
+.product-img {
+    overflow: hidden;
+    height: 70%;
+
+    img {
+        width: 100%;
+    }
+}
+.name {
+        color: #a5c926;
+    }
+.add-to-card {
+    text-align: center;
+    height: 30px;
+    background-color: #a5c926;
+    transform: translateY(100%);
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.price {
+    color: aliceblue;
+}
+
+// loading
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 249px;
+
+}
+
+.nav-loading {
+    width: 100%;
+
+    img {
+        width: 20%;
+    }
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.nav-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+.search{
+    width: 40%;
+    height: 100%;
+    form{
+        display: flex;
+        height: 100%;
+    }
+    input{
+        border-radius: 5px;
+        background-color: rgb(58, 59, 59);
+        height: 100%;
+        width: 97%;
+        text-align: center;
+        color: white;
+        border-color: rgb(58, 59, 59);
+    }
+    button{
+        width: max-content;
+        margin-left: 10px;
+        border-color: rgb(167, 170, 172);
+        height:100%;
+        background-color: rgb(58, 59, 59);
+    }
+}
+::placeholder{
+    color: rgb(60, 153, 23);
+}
+.sort{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick-sort{
+    margin-right: 30px;
+    color: white;
+}
+.select{
+    select{
+        color:white;
+        background-color:rgb(61 64 66);
+    }
+    
+}
+.title-category{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.title-name{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid green;
+}
+.title{
+    color: white;
+}
+.category{
+    display: flex;
+    margin-left: auto;
+    a{
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        &:hover{
+            transition: all 2s;
+            color: rgb(189, 224, 31);
+        }
+        &:active{
+            color: red;
+        }
+    }
+}
+@media only screen and (max-width:768px) {}

@@ -1,0 +1,66 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.delivery{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(25 25 26);
+    border-radius: 20px;
+    animation: fadeIn 1s ease-in both;
+    animation-delay: 1s;
+    img{
+        width:100%;
+    }
+}
+.image{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliveried{
+    display: flex;
+    align-items: center;
+}
+.paragraph{
+    width: 90%;
+    height: 90%;
+    margin:30px 0px
+}
+.title{
+    display: block;
+}
+.nav-title{
+    color: white;
+}
+.param{
+    animation: fadeIn 1s ease-in both;
+    animation-delay: 1s;
+}
+.param1{
+    animation: fadeIn 1s ease-in both;
+    animation-delay: 2s; 
+}
+.param2{
+    animation: fadeIn 1s ease-in both;
+    animation-delay: 3s; 
+}
+.param3{
+    animation: fadeIn 1s ease-in both;
+    animation-delay: 4s; 
+}
+@keyframes fadeIn{
+    from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

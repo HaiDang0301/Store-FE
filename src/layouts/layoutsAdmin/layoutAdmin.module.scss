@@ -1,0 +1,34 @@
+.content{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    background-color: #1a1919;
+}
+.sidebar{
+    width: 11.1%;
+    height: 100%;
+}
+.children{
+    padding-top: 86px;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: auto;
+}
+@media only screen and (max-width:768px) {
+    .sidebar{
+        width: 13.4%;
+    }
+}

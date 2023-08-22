@@ -1,0 +1,60 @@
+.wrapper{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    table{
+        color: white;
+    }
+    
+    td{
+        a{
+           margin-left: 20px; 
+           color: white;
+        }
+        img{
+            width: 50px;
+        }
+        
+    }
+}
+.create{
+    
+    text-align: right;
+    margin: 30px;
+    a{
+        border: none;
+        color: white;
+        background-color: #1a1919;
+        &:hover{
+            color: rgb(51, 206, 51);
+        }
+    }
+}
+.update{
+    &:hover{
+        color: yellow;
+    }
+        img{
+            width: 30px;
+            height: 40px;
+    }
+}
+.delete{
+    &:hover{
+        color: red;
+    }
+    img{
+        width: 30px;
+        height: 40px;
+}
+}
+.message{
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
